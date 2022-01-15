@@ -1,0 +1,81 @@
+* {
+  @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap");
+
+  font-family: "Nunito", sans-serif;
+  margin: 10px;
+  padding: 1px;
+}
+h1 {
+  font-size: 50px;
+}
+h4 {
+  text-decoration: none;
+}
+.heading {
+  padding-left: 40px;
+}
+.main {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.blog-1 {
+  display: flex;
+  padding-top: 50px;
+}
+.details {
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 5 0px;
+}
+
+.button {
+  color: azure;
+  background-color: #e02c6d;
+  border-radius: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.headline {
+  text-align: center;
+}
+
+/* collection styles */
+.collection .product-banner img {
+  width: 300px;
+  height: 256px;
+}
+.fa-star.filled {
+  color: #ffc014;
+}
+.fa-star.half {
+  top: calc(50% - 16px / 2);
+  color: #aeaeae;
+}
+.rating {
+  color: #787885;
+}
+.product-details {
+  color: #787885;
+}
+.course-rating {
+  display: flex;
+  align-items: center;
+}
+.collection {
+  display: flex;
+}
+.middle-collection {
+  display: flex;
+}
+.last-collection {
+  display: flex;
+}
+.collection-1 {
+  box-shadow: 12px 12px 123px 1px rgba(187, 187, 231, 0.4);
+  padding-right: 50px;
+  border-radius: 5px;
+}
+.see-more {
+  color: #e02c6d;
+  text-align: right;
+}
