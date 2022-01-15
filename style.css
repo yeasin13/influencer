@@ -35,6 +35,9 @@ h4 {
   padding-left: 25px;
   padding-right: 25px;
 }
+button:hover {
+  background-color: rgb(18, 20, 20);
+}
 .headline {
   text-align: center;
 }
@@ -79,6 +82,9 @@ h4 {
   padding-right: 50px;
   border-radius: 5px;
 }
+.collection-1:hover {
+  background-color: rgb(210, 240, 240);
+}
 .see-more {
   color: #e02c6d;
   text-align: right;
@@ -90,4 +96,36 @@ h4 {
 .footer {
   color: aliceblue;
   background-color: #0a0826;
+}
+
+/* Media Queries */
+/* Mobile Devices */
+@media only screen and (max-width: 576px) {
+  .blog-1 {
+    padding-top: 50px;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .container {
+    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  main,
+  .footer {
+    width: 100%;
+  }
+  .collection,
+  .middle-collection,
+  .last-collection {
+    display: flex;
+    flex-direction: column;
+  }
+  .course-rating {
+  }
+
+  img,
+  .collection-1 > .product-banner > img {
+    width: 270px;
+  }
 }
